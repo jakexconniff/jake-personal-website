@@ -1,0 +1,132 @@
+
+body {	
+	font-family: "Poiret One", sans-serif;
+	font-size: 3.0rem;
+	text-align: center;
+}
+
+
+
+
+
+.navbar {
+	background-color: #260126;
+	border-bottom: 0px;
+}
+
+
+.logo {
+	float: center;
+	margin: 0px 0px 0px 0px;
+	width: 100%; max-width: 100%;
+}
+
+.logo-container{
+	margin: 0% 0% 0% 0%;
+}
+
+.header-pic{
+	float: center;
+	margin: 0px 0px 0px 0px;	
+	width: 100%; max-width: 400px;
+}
+
+.modal-body {
+	text-align: center;
+}
+
+.jumbotron {
+	min-height: 100%; 
+	min-height: 100vh; 
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex; 
+
+	-webkit-box-align : center;
+	-webkit-align-items : center;
+	-moz-box-align : center;
+	-ms-flex-align : center;
+	align-items : center;
+
+	width: 100%;
+
+	-webkit-box-pack : center;
+	-moz-box-pack : center;
+	-ms-flex-pack : center;
+	-webkit-justify-content : center;
+	justify-content : center;
+}
+
+.jumbo-header{
+	background-color: #59323C;
+	color: #F2EEB3;
+	margin: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 0%;
+	text-align: center;
+	font-size: 10.0rem;
+}
+
+.jumbo-content{
+	background-color: #260126;
+	color: #C6D5CD;
+	margin: 0% 0% 0% 0%;
+	height:85vh;
+	font-size: 3.0rem;
+	padding: 0% 0% 0% 0%;
+
+
+
+}
+.jumbo-content2{
+	background-color: #8C6954;
+	color: #260126;
+	margin: 0% 0% 0% 0%;
+	height:100vh;
+
+
+
+}
+.jumbo-content-top{
+	background-color: #260126;
+	color: #C6D5CD;
+	margin: 1.6% 0% 0% 0%;
+	height:85vh;
+	font-size: 3.0rem;
+	padding: 0% 0% 0% 0%;
+}
+
+.panel-alt{
+	background-color: #3277FF;
+	color: #19E3FF;
+	padding: .75% 0% .25% 0%;
+	margin: 0% 0% 0% 0%;
+	text-align: center;
+}
+
+.modal {
+	font-size: 4.0rem;
+}
+
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
