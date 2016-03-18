@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
   		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-  		<link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   		<link rel="stylesheet" type="text/css" href="style/style.css">
     </head>
     <body>
@@ -21,16 +21,17 @@
 		        	<span class="icon-bar"></span>
 		       		<span class="icon-bar"></span>
 		      		</button>
+
 		    	</div>
 		    	<!-- Collect the nav links, forms, and other content for toggling -->
 		    	<div class="collapse navbar-collapse" id="top-nav">
-		    		<ul class="nav navbar-nav">
-		        		<li><a href="#">jake conniff<span class="sr-only">(current)</span></a></li>
-		        		<li><a href="#education">education<span class="sr-only">(current)</span></a></li>
-		        		<li><a href="#experience">experience<span class="sr-only">(current)</span></a></li>
-		        		<li><a href="#technical">tech skills<span class="sr-only">(current)</span></a></li>
-		        		<li><button type="button" class="btn btn-primary navbar-btn pull-left hidden-xs" data-toggle="modal" data-target="#contactModal">contact</button></li>
-		        		<li><a href="#contact" class="visible-xs" data-toggle="modal" data-target="#contactModal"><p data-toggle="collapse" data-target="#top-nav" aria-expanded="false">contact</p> <span class="sr-only">(current)</span></a></li> 
+		    		<ul class="nav navbar-nav nav-edit">
+		    			<li><a href="#">jake conniff<span class="sr-only">(current)</span></a></li>
+		        		<li><a class="nav-edit" href="#education">education<span class="sr-only">(current)</span></a></li>
+		        		<li><a class="nav-edit" href="#experience">experience<span class="sr-only">(current)</span></a></li>
+		        		<li><a class="nav-edit" href="#technical">tech skills<span class="sr-only">(current)</span></a></li>
+		        		<li><button type="button" class="nav-edit btn btn-primary navbar-btn hidden-xs" data-toggle="modal" data-target="#contactModal">contact</button></li>
+		        		<li><a href="#contact" class="visible-xs" data-toggle="modal" data-target="#contactModal"><p data-toggle="collapse" data-target="#top-nav" aria-expanded="false">contact</p> <span class="sr-only">(current)</span></a></li>
 		      		</ul>
 		    	</div><!-- /.navbar-collapse -->	
 			</div><!-- /.container-fluid -->
@@ -38,15 +39,19 @@
 
 		<div class="jumbotron col-lg-12 text-center jumbo-content-top wow slideInLeft">
 			<div class="container-fluid">
-				<img class="img-circle header-pic wow bounceInUp hvr-bounce-in" src="jake.jpg"><br><br>
+				<div>
+					<img class="img-circle header-pic wow bounceInUp hvr-bounce-in" src="img/jake.jpg">
+				</div><br><br>
+				<div>
 				<h3>I'm a software developer working out of New Britain, CT.<br>I started coding with Java and C++, but am now getting into a full development stack using Meteor.<br>I also enjoy graphic design, audio production, computer hardware, and gaming. I guess you could say I'm a Jake of all Trades.</h3>
+				</div>
 			</div>
 		</div>
 
 		<a name="education"></a>
 		<div class="jumbotron col-xs-12 text-center jumbo-content2 wow slideInRight">
 			<div class="container-fluid">
-				<a href="https://www.tunxis.edu/"  target="_blank"><img class="img-circle wow pulse" src="tunxis.jpg"></a>
+				<a href="https://www.tunxis.edu/"  target="_blank"><img class="img-circle wow pulse" src="img/tunxis.jpg"></a>
 				<h1>Education</h1>
 				<h2>Tunxis Community College</h2>
 				<h3>Finishing Associate's in Computer Science: Programming Spring 2016</h3>
@@ -59,78 +64,43 @@
 			<div class="container-fluid">
 				<h1>Experience</h1>	
 				<h2> A100 Apprentice</h2>
-				<h3>Currently attending their Winter 2016 Cohort.<br>Learning Meteor, MongoDB, as well as other crucial skillsets for maintaining a productive workflow in any software development project.<br>Click the shield for more information!<br><a href="http://indie-soft.com/a100/" target="_blank"><img class="animated infinite pulse" src="logos/a100-logo-small.png"></a></h3>
+				<h3>Currently attending their Winter 2016 Cohort.<br>Learning Meteor, MongoDB, as well as other crucial skillsets for maintaining a productive workflow in any software development project.<br>Click the shield for more information!<br><a href="http://indie-soft.com/a100/" target="_blank"><img class="animated infinite pulse" src="img/a100-logo-small.png"></a></h3>
 			</div>
 		</div>
 
 		<a name="technical"></a>
-		<div class="panel col-xs-12 logo-container">
+		<div class="col-xs-12 logo-container">
 			<div class="container-fluid text-center">
 				<h1>Technical Skills</h1>
-				<div class="container-fluid col-xs-1 col-xs-offset-1 visible-lg">
-					<a href="http://getbootstrap.com" target="_blank"><img class="logo wow fadeInLeft" src="logos/bootstrap-logo.png"></a>
+				<div class="container-fluid col-xs-1 col-xs-offset-1">
+					<a href="http://getbootstrap.com" target="_blank"><img class="logo wow fadeInLeft" src="img/bootstrap-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img class="logo wow fadeInLeft" src="logos/css-logo.png"></a>
+				<div class="container-fluid col-xs-1">
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img class="logo wow fadeInLeft" src="img/css-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="https://www.javascript.com/" target="_blank"><img class="logo wow fadeInLeft" src="logos/javascript-logo.png"></a>
+				<div class="container-fluid col-xs-1">
+					<a href="https://www.javascript.com/" target="_blank"><img class="logo wow fadeInLeft" src="img/javascript-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img class="logo wow fadeInLeft" src="logos/html-logo.png"></a>
+				<div class="container-fluid col-xs-1">
+					<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img class="logo wow fadeInLeft" src="img/html-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="http://adobe.com/photoshop" target="_blank"><img class="logo wow fadeInLeft" src="logos/photoshop-logo.png"></a>
+				<div class="container-fluid col-xs-1">
+					<a href="http://adobe.com/photoshop" target="_blank"><img class="logo wow fadeInLeft" src="img/photoshop-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="http://cplusplus.com" target="_blank"><img class="logo wow fadeInRight" src="logos/cpp-logo.png"></a>
+				<div class="container-fluid col-xs-1">
+					<a href="http://cplusplus.com" target="_blank"><img class="logo wow fadeInRight" src="img/cpp-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="http://github.com" target="_blank"><img class="logo wow fadeInRight" src="logos/github-logo.png"></a>
+				<div class="container-fluid col-xs-1">
+					<a href="http://github.com" target="_blank"><img class="logo wow fadeInRight" src="img/github-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="https://www.java.com/en/" target="_blank"><img class="logo wow fadeInRight" src="logos/java-logo.png"></a>
+				<div class="container-fluid col-xs-1">
+					<a href="https://www.java.com/en/" target="_blank"><img class="logo wow fadeInRight" src="img/java-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="https://www.meteor.com/" target="_blank"><img class="logo wow fadeInRight" src="logos/meteor-logo.png"></a>
+				<div class="container-fluid col-xs-1">
+					<a href="https://www.meteor.com/" target="_blank"><img class="logo wow fadeInRight" src="img/meteor-logo.png"></a>
 				</div>
-				<div class="container-fluid col-xs-1 visible-lg">
-					<a href="https://angularjs.org/" target="_blank"><img class="logo wow fadeInRight" src="logos/angular-logo.png"></a>
-				</div>
-			</div>
-			<div class="container-fluid text-center">
-				<div class="container-fluid col-xs-2 col-xs-offset-1 hidden-lg">
-					<img class="logo wow fadeInLeft" src="logos/bootstrap-logo.png">
-				</div>
-				<div class="container-fluid col-xs-2 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInLeft" src="logos/css-logo.png">
-				</div>
-				<div class="container-fluid col-xs-2 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInLeft" src="logos/javascript-logo.png">
-				</div>
-				<div class="container-fluid col-xs-2 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInRight" src="logos/html-logo.png">
-				</div>
-				<div class="container-fluid col-xs-2 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInRight" src="logos/photoshop-logo.png">
-				</div>
-				<div class="container-fluid col-xs-1 visible-md- visible-sm visible-xs">
-
-				</div>
-				<div class="container-fluid col-xs-2 col-xs-offset-1 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInLeft" src="logos/cpp-logo.png">
-				</div>
-				<div class="container-fluid col-xs-2 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInLeft" src="logos/github-logo.png">
-				</div>
-				<div class="container-fluid col-xs-2 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInRight" src="logos/java-logo.png">
-				</div>
-				<div class="container-fluid col-xs-2 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInRight" src="logos/meteor-logo.png">
-				</div>
-				<div class="container-fluid col-xs-2 visible-md visible-sm visible-xs">
-					<img class="logo wow fadeInRight" src="logos/angular-logo.png">
+				<div class="container-fluid col-xs-1">
+					<a href="https://angularjs.org/" target="_blank"><img class="logo wow fadeInRight" src="img/angular-logo.png"></a>
 				</div>
 			</div>
 		</div>
@@ -154,7 +124,7 @@
   			</div>
 		</div>
 		<div class="jumbo-header col-xs-12">
-			<h1>Made with <a href="http://getbootstrap.com/">Twitter Bootstrap</a>. Logos inspired by <a href="http://Devicon.fr">Devicon.fr</a></h1>
+			<h1>Made with <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://daneden.github.io/animate.css/">Animate.css</a>, <a href="http://mynameismatthieu.com/WOW/index.html">Wow.js</a>. Logos inspired by <a href="http://Devicon.fr">Devicon.fr</a>.</h1>
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>

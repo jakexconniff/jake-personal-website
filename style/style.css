@@ -1,3 +1,12 @@
+.vertical-align {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover{
+	text-decoration: none;
+}
 
 body {	
 	font-family: "Poiret One", sans-serif;
@@ -5,39 +14,51 @@ body {
 	text-align: center;
 }
 
-
-
-
-
 .navbar {
-	background-color: #260126;
-	color: white;
+	background-color: #59323C;
 	border-bottom: 0px;
-	font-size: 3.4vw;
+	font-size: 2.8vw;
 	text-align: center;
-	height: 3vh;
+	height: 5vh;
+	color: #ffffff;
 }
 
-.navbar .navbar-nav {
+.nav-edit {
   display: inline-block;
   float: none;
   vertical-align: top;
+  color: white;
+
+}
+
+.nav.navbar-nav.nav-edit a { /* Specific to overwrite Bootstrap. */
+    color: #ffffff;
+}
+.nav.navbar-nav.nav-edit a:hover { /* Specific to overwrite Bootstrap. */
+    color: #089DE3;
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
-}
 
+  text-align: center;
+
+}
 
 .logo {
 	float: center;
 	margin: 0px 0px 0px 0px;
-	width: 100%; max-width: 100%;
+	width: 5vw;
+	height: 5vw;
 }
 
 .logo-container{
 	margin: 0% 0% 0% 0%;
-	height: 20vh;
+	height: 22vh;
+	background-color: #8C6954;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .header-pic{
@@ -81,14 +102,14 @@ body {
 	margin: 0% 0% 0% 0%;
 	padding: 0% 0% 0% 0%;
 	text-align: center;
-	font-size: 10.0rem;
+	font-size: 12.0rem;
 }
 
 .jumbo-content{
 	background-color: #260126;
 	color: #C6D5CD;
 	margin: 0% 0% 0% 0%;
-	height: 75vh;
+	height: 95vh;
 	font-size: 3.0rem;
 	padding: 0% 0% 0% 0%;
 
@@ -97,7 +118,7 @@ body {
 }
 .jumbo-content2{
 	background-color: #8C6954;
-	color: #260126;
+	color: #ffffff;
 	margin: 0% 0% 0% 0%;
 	height:75vh;
 
@@ -108,7 +129,7 @@ body {
 	background-color: #260126;
 	color: #C6D5CD;
 	margin: 1.6% 0% 0% 0%;
-	height: 75vh;
+	height: 100vh;
 	font-size: 3.0rem;
 	padding: 0% 0% 0% 0%;
 }
