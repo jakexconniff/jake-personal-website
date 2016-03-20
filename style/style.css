@@ -5,10 +5,6 @@ body {
 	text-align: center;
 }
 
-
-
-
-
 .navbar {
 	background-color: #260126;
 	color: white;
@@ -17,6 +13,7 @@ body {
 	text-align: center;
 	height: 3vh;
 }
+
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -27,7 +24,11 @@ body {
 .navbar .navbar-collapse {
   text-align: center;
 }
+.container-fluid{
+	padding: 0px;
+	margin:0px;
 
+}
 
 .logo {
 	float: center;
@@ -43,7 +44,11 @@ body {
 .header-pic{
 	float: center;
 	margin: 0px 0px 0px 0px;	
-	width: 100%; max-width: 400px;
+    max-width: 400px;
+}
+.img-circle{
+	border-color: white;
+	border: 5px;
 }
 
 .modal-body {
@@ -78,8 +83,8 @@ body {
 .jumbo-header{
 	background-color: #59323C;
 	color: #F2EEB3;
-	margin: 0% 0% 0% 0%;
-	padding: 0% 0% 0% 0%;
+	margin: 0px;
+	padding: 0px;
 	text-align: center;
 	font-size: 10.0rem;
 }
