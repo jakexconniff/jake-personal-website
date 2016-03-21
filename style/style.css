@@ -11,10 +11,9 @@ body {
 
 
 .navbar-nav > li > a, .navbar-brand {
-    padding-top:auto !important; 
-    padding-bottom:auto !important;
-    height: 28px;
+    
     justify-content: space-around;
+    line-height: 2vh;
 }
 .navbar-collapse.in {
 overflow: hidden;
@@ -25,7 +24,7 @@ overflow: hidden;
 	font-size: 2.5vw;
 	text-align: center;
 	color: #ffffff;
-	min-height: 2vh;
+	height: 4vh;
 }
 
 .nav-edit {
@@ -37,14 +36,14 @@ overflow: hidden;
 }
 
 .nav.navbar-nav.nav-edit {
-
+	background-color: #59323C;
+	height: 2vh;
 }
 
-.nav.navbar-nav.nav-edit a { /* Specific to overwrite Bootstrap. */
+.nav.navbar-nav.nav-edit a { 
     color: #ffffff;
-
 }
-.nav.navbar-nav.nav-edit a:hover { /* Specific to overwrite Bootstrap. */
+.nav.navbar-nav.nav-edit a:hover { 
     color: #089DE3;
 }
 
@@ -55,7 +54,6 @@ overflow: hidden;
 }
 
 .logo {
-	float: center;
 	margin: 0px 0px 0px 0px;
 	width: 5vw;
 	height: 5vw;
@@ -73,7 +71,6 @@ overflow: hidden;
 }
 
 .header-pic{
-	float: center;
 	margin: 0px 0px 0px 0px;	
 	width: 100%; max-width: 400px;
 }
