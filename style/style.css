@@ -8,12 +8,17 @@ a:hover{
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 body {	
 	font-family: "Poiret One", sans-serif;
-	font-size: 3.0rem;
+	font-size: 3.0vw;
 	text-align: center;
 }
 
+<<<<<<< HEAD
 .navbar {
 	background-color: #59323C;
 	border-bottom: 0px;
@@ -21,6 +26,24 @@ body {
 	text-align: center;
 	height: 5vh;
 	color: #ffffff;
+=======
+
+.navbar-nav > li > a, .navbar-brand {
+    
+    justify-content: space-around;
+    line-height: 2vh;
+}
+.navbar-collapse.in {
+overflow: hidden;
+}
+.navbar {
+	background-color: #59323C;
+	border-bottom: 0px;
+	font-size: 2.5vw;
+	text-align: center;
+	color: #ffffff;
+	height: 4vh;
+>>>>>>> master
 }
 
 .nav-edit {
@@ -31,10 +54,22 @@ body {
 
 }
 
+<<<<<<< HEAD
 .nav.navbar-nav.nav-edit a { /* Specific to overwrite Bootstrap. */
     color: #ffffff;
 }
 .nav.navbar-nav.nav-edit a:hover { /* Specific to overwrite Bootstrap. */
+=======
+.nav.navbar-nav.nav-edit {
+	background-color: #59323C;
+	height: 2vh;
+}
+
+.nav.navbar-nav.nav-edit a { 
+    color: #ffffff;
+}
+.nav.navbar-nav.nav-edit a:hover { 
+>>>>>>> master
     color: #089DE3;
 }
 
@@ -45,7 +80,6 @@ body {
 }
 
 .logo {
-	float: center;
 	margin: 0px 0px 0px 0px;
 	width: 5vw;
 	height: 5vw;
@@ -59,10 +93,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+<<<<<<< HEAD
+=======
+	font-size: 5rem;
+>>>>>>> master
 }
 
 .header-pic{
-	float: center;
 	margin: 0px 0px 0px 0px;	
 	width: 100%; max-width: 400px;
 }
