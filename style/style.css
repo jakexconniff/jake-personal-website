@@ -1,25 +1,26 @@
 .vertical-align {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-
 a:hover{
 	text-decoration: none;
 }
 
-a:hover{
-	text-decoration: none;
+ul.nav a:hover {
+	background-color: #00203B; !important; 
 }
 
 body {	
 	font-family: "Poiret One", sans-serif;
-	font-size: 3.0vw;
+	font-size: 2.5vw;
 	text-align: center;
+	overflow-x: hidden;
 }
-
-
-
+.container-fluid { 
+  padding: 0px;
+  width: 100vw;
+}
 .navbar-nav > li > a, .navbar-brand {
     
     justify-content: space-around;
@@ -29,15 +30,14 @@ body {
 overflow: hidden;
 }
 .navbar {
-	background-color: #59323C;
+	background-color: #875301;
 	border-bottom: 0px;
-	font-size: 2.5vw;
+	font-size: 2.2rem;
 	text-align: center;
 	color: #ffffff;
 	height: 4vh;
 
 }
-
 .nav-edit {
   display: inline-block;
   float: none;
@@ -45,44 +45,27 @@ overflow: hidden;
   color: white;
 
 }
-
 .nav.navbar-nav.nav-edit {
-	background-color: #59323C;
 	height: 2vh;
 }
-
-.nav.navbar-nav.nav-edit a { 
+.nav.navbar-nav.nav-edit a { /* Specific to overwrite Bootstrap */
     color: #ffffff;
 }
 .nav.navbar-nav.nav-edit a:hover { 
     color: #089DE3;
 }
-
 .navbar .navbar-collapse {
-
   text-align: center;
-
 }
 
 .logo {
 	margin: 0px 0px 0px 0px;
 	width: 5vw;
-	height: 5vw;
-}
 
-.logo-container{
-	margin: 0% 0% 0% 0%;
-	height: 22vh;
-	background-color: #8C6954;
-	color: #ffffff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
-
 .header-pic{
 	margin: 0px 0px 0px 0px;	
-	width: 100%; max-width: 400px;
+	width: 100%; max-width: 20vw;
 }
 
 .modal-body {
@@ -92,74 +75,57 @@ overflow: hidden;
 .jumbotron {
 
 	min-height: 10vh; 
-
+	width: 100%;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex; 
-
 	-webkit-box-align : center;
 	-webkit-align-items : center;
 	-moz-box-align : center;
 	-ms-flex-align : center;
 	align-items : center;
-
-	width: 100%;
-
 	-webkit-box-pack : center;
 	-moz-box-pack : center;
 	-ms-flex-pack : center;
 	-webkit-justify-content : center;
 	justify-content : center;
-}
-
-.jumbo-header{
-	background-color: #59323C;
-	color: #F2EEB3;
 	margin: 0% 0% 0% 0%;
 	padding: 0% 0% 0% 0%;
+}
+.jumbo-content-top{
+	background-color: #00203B;
+	color: #C6D5CD;
+	margin: 4vh 0% 0% 0%;
+	height: 100vh;
+	font-size: 3.0rem;
+}
+.jumbo-content{
+	background-color: #014A87;
+	color: #C6D5CD;
+	height: 95vh;
+	font-size: 3.0rem;
+}
+.jumbo-content2{
+	background-color: #80B5E2;
+	color: #ffffff;
+	height:75vh;
+}
+.logo-container{
+	height: 22vh;
+	background-color: #875301;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.jumbo-footer{
+	background-color: #3B2400;
+	color: #80B5E2;
 	text-align: center;
 	font-size: 12.0rem;
 }
-
-.jumbo-content{
-	background-color: #260126;
-	color: #C6D5CD;
-	margin: 0% 0% 0% 0%;
-	height: 95vh;
-	font-size: 3.0rem;
-	padding: 0% 0% 0% 0%;
-
-
-
-}
-.jumbo-content2{
-	background-color: #8C6954;
-	color: #ffffff;
-	margin: 0% 0% 0% 0%;
-	height:75vh;
-
-
-
-}
-.jumbo-content-top{
-	background-color: #260126;
-	color: #C6D5CD;
-	margin: 1.6% 0% 0% 0%;
-	height: 100vh;
-	font-size: 3.0rem;
-	padding: 0% 0% 0% 0%;
-}
-
-.panel-alt{
-	background-color: #3277FF;
-	color: #19E3FF;
-	padding: .75% 0% .25% 0%;
-	margin: 0% 0% 0% 0%;
-	text-align: center;
-}
-
 .modal {
 	font-size: 4.0rem;
 }
@@ -184,3 +150,6 @@ overflow: hidden;
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
+i {
+	max-height: 4vh;
+}
