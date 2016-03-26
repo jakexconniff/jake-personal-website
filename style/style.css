@@ -38,7 +38,7 @@ overflow: hidden;
 	font-size: 2.2rem;
 	text-align: center;
 	color: #ffffff;
-	height: 4vh;
+	height: 50px;
 
 }
 .nav-edit {
@@ -100,7 +100,7 @@ overflow: hidden;
 .jumbo-content-top{
 	background-color: #00203B;
 	color: #C6D5CD;
-	margin: 4vh 0% 0% 0%;
+	margin: 50px 0px 0px 0px;
 	height: 100vh;
 	font-size: 3.0rem;
 }
