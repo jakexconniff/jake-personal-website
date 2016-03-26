@@ -5,6 +5,8 @@
 }
 a:hover{
 	text-decoration: none;
+	cursor: pointer; 
+	cursor: hand;
 }
 
 ul.nav a:hover {
